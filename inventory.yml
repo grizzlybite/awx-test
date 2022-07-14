@@ -1,0 +1,9 @@
+all:
+  vars:
+    ansible_user: grizzlybite
+  children:
+    gitlab:
+      hosts:
+        lab-gitlab:
+          ansible_host: 192.168.200.232
+

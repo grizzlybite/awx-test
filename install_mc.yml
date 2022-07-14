@@ -1,0 +1,8 @@
+---
+- hosts: all
+  
+  tasks:
+    - name: Install mc
+      package:
+        name: mc
+        state: present
